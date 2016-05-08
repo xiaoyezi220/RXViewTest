@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
 
                     @Override
                     public void onNext(List<Integer> integers) {
-                        Log.d("zq","Button taped" + integers.size());
+                        Log.d("zq","Button taped " + integers.size());
                     }
                 });
     }
